@@ -1,0 +1,4 @@
+<p>parent works!</p>
+<app-child [childMessage]="'Hello From Parent'" (messageEvent) = "receiveMessage($event)"></app-child>
+
+<p>{{getMin(5, 10)}}</p>
